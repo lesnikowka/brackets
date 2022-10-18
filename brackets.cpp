@@ -2,7 +2,7 @@
 #include <string>
 #include <stack>
 
-bool bracketsIsCorrect(std::string str) {
+bool bracketsIsCorrect(const std::string& str) {
 	std::stack<char> st;
 	std::string brackets_left = "([{";
 	std::string brackets_right = ")]}";
